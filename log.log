@@ -1,0 +1,10 @@
+ * Serving Flask app "app.py"
+ * Environment: development
+ * Debug mode: off
+E:\anaconda\lib\site-packages\sklearn\base.py:310: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.23.2 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+E:\anaconda\lib\site-packages\sklearn\base.py:310: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.23.2 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [05/Jun/2023 17:22:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jun/2023 17:22:31] "GET /favicon.ico HTTP/1.1" 404 -

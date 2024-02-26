@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" value="你好">
+<input type="button" value="开始" onclick="click1(this)">
+</body>
+<script>
+    var label = document.getElementsByTagName("input")[0]
+    function click1(button){
+        time = new Date()
+        if (button.value=="开始"){
+            button.value = "结束"
+            num = 0
+            while (button.value == "结束"){
+                label.value = time1 - time
+            }
+        }
+        else{
+            button.value = "开始"
+            label.value = time
+        }
+    }
+</script>
+</html>
